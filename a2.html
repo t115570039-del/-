@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>115570039鄭棋元</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+      $('#slider').nivoSlider();
+    });
+  </script>
+  <style type="text/css">
+    #a2-section {
+      text-align: left;
+    }
+
+    .a2-title {
+      color: blue;
+      font-size: 30pt;
+      font-weight: bold;
+      text-align: left;
+      font-family: 'DFKai-SB', 'BiauKai', '標楷體', serif;
+      margin-bottom: 10px;
+    }
+
+    .a2-divider {
+      border: 0;
+      border-top: 2px solid #888888;
+      margin: 10px 0 16px 0;
+    }
+
+    .a2-hint {
+      color: brown;
+      font-size: 30pt;
+      font-weight: bold;
+      font-family: 'DFKai-SB', 'BiauKai', '標楷體', serif;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    .a2-btn {
+      color: purple;
+      font-size: 30pt;
+      font-weight: bold;
+      text-align: center;
+      font-family: 'DFKai-SB', 'BiauKai', '標楷體', serif;
+      padding: 4px 14px;
+      cursor: pointer;
+    }
+
+    #a2Table {
+      width: 90%;
+      border-collapse: collapse;
+      margin: 16px 0 24px 0;
+      color: purple;
+      font-size: 30pt;
+      font-weight: bold;
+      font-family: 'DFKai-SB', 'BiauKai', '標楷體', serif;
+      text-align: center;
+    }
+
+    #a2Table th, #a2Table td {
+      border: 1px solid #000000;
+      padding: 6px 12px;
+      text-align: center;
+    }
+  </style>
+  <script type="text/javascript">
+    function setRowStyle(row, bgColor) {
+      row.style.backgroundColor = bgColor;
+      row.style.color = "purple";
+      row.style.fontSize = "30pt";
+      row.style.fontWeight = "bold";
+      row.style.textAlign = "center";
+      row.style.fontFamily = "'DFKai-SB', 'BiauKai', '標楷體', serif";
+
+      var cells = row.getElementsByTagName("td");
+      var headers = row.getElementsByTagName("th");
+      for (var j = 0; j < cells.length; j++) {
+        cells[j].style.backgroundColor = bgColor;
+        cells[j].style.color = "purple";
+        cells[j].style.fontSize = "30pt";
+        cells[j].style.fontWeight = "bold";
+        cells[j].style.textAlign = "center";
+        cells[j].style.fontFamily = "'DFKai-SB', 'BiauKai', '標楷體', serif";
+      }
+      for (var k = 0; k < headers.length; k++) {
+        headers[k].style.backgroundColor = bgColor;
+        headers[k].style.color = "purple";
+        headers[k].style.fontSize = "30pt";
+        headers[k].style.fontWeight = "bold";
+        headers[k].style.textAlign = "center";
+        headers[k].style.fontFamily = "'DFKai-SB', 'BiauKai', '標楷體', serif";
+      }
+    }
+
+    function applyPinkRows() {
+      var rows = document.getElementById("a2Table").getElementsByTagName("tr");
+      // 第 1、3、5、7 列 -> 索引 0、2、4、6
+      var targetIndexes = [0, 2, 4, 6];
+      for (var i = 0; i < targetIndexes.length; i++) {
+        if (rows[targetIndexes[i]]) {
+          setRowStyle(rows[targetIndexes[i]], "pink");
+        }
+      }
+    }
+
+    function applyYellowRows() {
+      var rows = document.getElementById("a2Table").getElementsByTagName("tr");
+      // 第 2、4、6 列 -> 索引 1、3、5
+      var targetIndexes = [1, 3, 5];
+      for (var i = 0; i < targetIndexes.length; i++) {
+        if (rows[targetIndexes[i]]) {
+          setRowStyle(rows[targetIndexes[i]], "yellow");
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="main">	
+    <div id="site_content">  
+	  <div id="menubar">
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="current"><a href="index.html">首頁</a></li>
+          <li><a href="a1.html">第1題</a></li>
+          <li><a href="a2.html">第2題</a></li>
+          <li><a href="a3.html">第3題</a></li>
+          <li><a href="a4.html">第4題</a></li>
+        </ul>
+	  </div><!--close menubar-->
+      <div id="header">  
+        <h1>115570039鄭棋元</h1>	
+	    <h2>期中考</h2>
+      </div><!--close header-->	
+	  <div id="banner_image">
+	    <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/slide1.jpg" alt="" />
+            <img src="images/slide2.jpg" alt="" />
+            <img src="images/slide3.jpg" alt="" />
+		  </div><!--close slider-->
+		</div><!--close slider-wrapper-->
+	  </div><!--close banner_image-->		  
+      <div id="content">
+        <div class="content_item">
+          <div id="a2-section">
+            <div class="a2-title">設定表格條狀紋理</div>
+            <hr class="a2-divider" />
+
+            <div class="a2-hint">
+              顏色1：<input type="button" value="粉紅" class="a2-btn" onclick="applyPinkRows();" />
+            </div>
+            <div class="a2-hint">
+              顏色2：<input type="button" value="黃色" class="a2-btn" onclick="applyYellowRows();" />
+            </div>
+
+            <table id="a2Table" border="1" width="90%">
+              <tr>
+                <th>姓名</th>
+                <th>數學</th>
+              </tr>
+              <tr>
+                <td>約翰</td>
+                <td>90</td>
+              </tr>
+              <tr>
+                <td>艾米</td>
+                <td>92</td>
+              </tr>
+              <tr>
+                <td>彼德</td>
+                <td>75</td>
+              </tr>
+              <tr>
+                <td>蘇珊</td>
+                <td>99</td>
+              </tr>
+              <tr>
+                <td>湯姆</td>
+                <td>62</td>
+              </tr>
+              <tr>
+                <td>傑克</td>
+                <td>72</td>
+              </tr>
+            </table>
+          </div>
+
+          <h1>Welcome to your website</h1>
+          <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under the Creative Commons Attribution 3.0 Licence), which means that you are free to download and use it for anything you want (including modifying and amending it). If you wish to remove the 'ARaynorDesign' link in the footer of the template, please contact me first, but other than that...</p>
+          <h3>Place your heading here</h3>
+          <div style="width:200px; float:left; padding: 0px 20px 10px 0px;"><img alt="image" src="images/image.jpg" /></div>
+          <p>This website template uses the fancybox jquery tool to enhance the website, click on the image to the right to see. </p>
+          <p>Ut tincidunt, ante vel fermentum iaculis, turpis sem pulvinar diam, sit amet ullamcorper nibh dui ac nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos:</p>
+          <p>Vestibulum tempus urna vitae neque vehicula sit amet tristique felis ultrices. Phasellus eu laoreet mauris. Integer sit amet ante nec ipsum euismod hendrerit et eget sapien. Duis velit ante, semper nec dapibus adipiscing, pellentesque vitae orci. Etiam adipiscing, justo ut faucibus placerat, neque libero accumsan ipsum, non pellentesque ligula nibh id justo. Aenean tellus nisl, bibendum vitae sollicitudin id, faucibus ut mi.</p>
+          <p>Vestibulum tempus urna vitae neque vehicula sit amet tristique felis ultrices. Phasellus eu laoreet mauris. Integer sit amet ante nec ipsum euismod hendrerit et eget sapien. Duis velit ante, semper nec dapibus adipiscing, pellentesque vitae orci. Etiam adipiscing, justo ut faucibus placerat, neque libero accumsan ipsum, non pellentesque ligula nibh id justo. Aenean tellus nisl, bibendum vitae sollicitudin id, faucibus ut mi.</p>
+		</div><!--close content_item-->	
+	      
+		<div class="sidebar_container">   		  
+		  <div class="sidebar">
+            <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->     		
+		  <div class="sidebar">
+            <div class="sidebar_item">
+              <h2>Latest Blog</h2>
+		  	  <h4>April 2012</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		        <a href="#">Read more</a>
+            </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->  
+		  <div class="sidebar">
+            <div class="sidebar_item">
+              <h2>Latest Blog</h2>
+			  <h4>April 2012</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		        <a href="#">Read more</a>
+            </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->  
+        </div><!--close sidebar_container-->	
+       <br style="clear:both;" />
+      </div><!--close content-->	
+    </div><!--close site_content-->	
+    <div id="footer">  
+      &copy;版權所有2023by115570039鄭棋元
+    </div><!--close footer-->	
+  </div><!--close main-->	
+</body>
+</html>
